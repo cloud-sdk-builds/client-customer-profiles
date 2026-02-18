@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-customer-profiles`](https://www.npmjs.com/package/@aws-sdk/client-customer-profiles/v/3.7.0).
+[`@aws-sdk/client-customer-profiles`](https://www.npmjs.com/package/@aws-sdk/client-customer-profiles/v/3.8.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.7.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.8.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rSZ5/sAe+Y1EHr3VdI/R+AE8VYDm+xi9EOhgnNHpq0dPhCMCmqHATvzfsmz4bcSI
+sha384-9+E+z67g4xbrJhAUU3t77+lWp9nJHJN1XNVWy63mcN863ICE9hL1oWETgvCzHzKm
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-customer-profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.7.0/index.min.mjs"
+            "@aws-sdk/client-customer-profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.8.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.7.0/index.min.mjs": "sha384-rSZ5/sAe+Y1EHr3VdI/R+AE8VYDm+xi9EOhgnNHpq0dPhCMCmqHATvzfsmz4bcSI"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.8.0/index.min.mjs": "sha384-9+E+z67g4xbrJhAUU3t77+lWp9nJHJN1XNVWy63mcN863ICE9hL1oWETgvCzHzKm"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-customer-profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.7.0/index.min.mjs"
+                        "@aws-sdk/client-customer-profiles": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.8.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.7.0/index.min.mjs": "sha384-rSZ5/sAe+Y1EHr3VdI/R+AE8VYDm+xi9EOhgnNHpq0dPhCMCmqHATvzfsmz4bcSI"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-customer-profiles@3.8.0/index.min.mjs": "sha384-9+E+z67g4xbrJhAUU3t77+lWp9nJHJN1XNVWy63mcN863ICE9hL1oWETgvCzHzKm"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.7.0`)
+* Always pin to a specific version (`@3.8.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-customer-profiles/blob/refs/tags/3.7.0/LICENSE
+https://github.com/cloud-sdk-builds/client-customer-profiles/blob/refs/tags/3.8.0/LICENSE
 ```
 
 ---
